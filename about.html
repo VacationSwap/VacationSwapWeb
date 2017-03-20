@@ -15,10 +15,9 @@
     
     <!-- External CSS File implementation -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
   </head>
   
-  <body background="https://s-media-cache-ak0.pinimg.com/originals/69/a3/99/69a399353d0001cba84fc476ecda3f45.jpg" >
+  <body>
     <!-- Header -->
     <div id="header" class="navbar fixed-top navbar-inverse bg-inverse" role="navigation">
       <div class="container-fluid">
@@ -27,51 +26,42 @@
         </div>
         <ul class="nav navbar-nav">
           <!-- Change this to the proper page name -->
-          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a id="signin_text" href="/signin.html">Sign In <span class="glyphicon glyphicon-user"></span></a></li>
         </ul>
       </div>
     </div>
-    
+  
     <!-- Content -->
     <div id="wrap">
-      <div id="content" class="clear-top">
-        <!-- Put all content code here --> 
-        <div class="text-center">
-          <div class="mz-h1">Vacation Swap</div>      
-        </div>
-        <div class="container">
-          <div class="row voffset3">
+      <div id="content" class="container clear-top">
+        <!-- Put all content code here -->
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">What is VacationSwap?</div>
+            <div class="panel-body">VacationSwap is a revolutionary tool that aims to cumbersome steps and research in planning a vacation. With user submitted itineraries called ‘walkthroughs’ and an in-depth rating and reviewing system, exploring the world has never been easier.</div>
+          </div>          
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">Who are the creators?</div>
+            <div class="panel-body">We (Udit Bhansali, Sohit Pal, Jimmy Stein, Michael Zurawski) are 4 college students who all major or minor in Computer Science at the University of Massachusetts - Lowell.</div>
           </div>
-        </div>
-        <div class="container">
-          <div class="row voffset3">
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">Why did we make this website?</div>
+            <div class="panel-body">Vacations are fun and meant to be relaxing, why should the process of planning one be any different? We created this website to solve an issue that we have faced in our own lives and to complete a requirement for GUI Prototyping II with Professor Wenjin Zhou.</div>
           </div>
-        </div>
-        <div class="container">
-          <div class="row voffset3">
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="mz-searchbar text-center row-fluid">
-            <!-- Search Bar -->
-            <form class="navbar-form" role="search">
-              <div class="col-xs-4 input-group add-on">
-                <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
-                <div class="input-group-btn">
-                  <span class="input-group-btn">
-                    <button class="btn btn-secondary" type="button"><i class="glyphicon glyphicon-search"></i>  </button>
-                  </span>
-                </div>
-              </div>
-            </form>
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">How can you get in contact with us?</div>
+            <div class="panel-body">Click <a href="/contact.html">here</a> to send us a message!</div>
           </div>
         </div>
       </div>
     </div>
-    
+
     <!-- Footer -->
     <div id="footer" class="navbar navbar-inverse bg-inverse" role="navigation">
       <div class="navbar-collapse collapse">

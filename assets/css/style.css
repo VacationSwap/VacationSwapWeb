@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/69/a3/99/69a399353d0001cba84fc476ecda3f45.jpg");
+
 }
 
 .voffset3 { margin-top: 90px; }
@@ -23,6 +23,10 @@ body {
 
 .mz-searchbar {
   opacity: 0.75;
+}
+
+.mz-iter-icon {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/6f/b6/24/6fb624fbfcdd92bed70987048dc6b0f8.jpg");
 }
 
 #header {
